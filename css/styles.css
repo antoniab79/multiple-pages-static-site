@@ -4,9 +4,34 @@ body {
 
 h1 {
   text-align: center;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
   color: rgb(11, 14, 63);
 }
 
 a {
   color: rgb(11, 14, 63);
+}
+p {
+  display: block;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: rgb(32, 98, 164);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
 }
